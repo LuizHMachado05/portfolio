@@ -13,8 +13,10 @@
         <div class="header-container">
             <img src="foto.jpg" alt="Luiz Henrique Machado" class="profile-pic">
             <div class="header-info">
-                <h1>Luiz Henrique Machado</h1>
-                <h2>Software Engineer & BI Analyst</h2>
+                <h1 class="lang lang-pt" style="display:none">Luiz Henrique Machado</h1>
+                <h1 class="lang lang-en">Luiz Henrique Machado</h1>
+                <h2 class="lang lang-pt" style="display:none">Engenheiro de Software & Analista de BI</h2>
+                <h2 class="lang lang-en">Software Engineer & BI Analyst</h2>
                 <div class="social-links">
                     <a href="https://www.linkedin.com/in/luiz-henrique-da-silva-machado-2a489b2b7/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     <a href="mailto:machadoluiz659@gmail.com"><i class="fas fa-envelope"></i></a>
@@ -22,98 +24,128 @@
                     <a href="https://github.com/LuizHMachado05"><i class="fab fa-github"></i></a>
                 </div>
             </div>
+            <button id="lang-toggle" style="margin-left: 20px; padding: 8px 16px; font-weight: bold; cursor: pointer;">PT</button>
         </div>
         <nav>
             <ul>
-                <li><a href="#inicio" class="scroll-link">Início</a></li>
-                <li><a href="#sobre" class="scroll-link">Sobre</a></li>
-                <li><a href="#habilidades" class="scroll-link">Habilidades</a></li>
-                <li><a href="#projetos" class="scroll-link">Projetos</a></li>
-                <li><a href="#experiencia" class="scroll-link">Experiência</a></li>
-                <li><a href="#formacao" class="scroll-link">Formação</a></li>
-                <li><a href="#contato" class="scroll-link">Contato</a></li>
+                <li><a href="#inicio" class="scroll-link lang lang-pt" style="display:none">Início</a><a href="#inicio" class="scroll-link lang lang-en">Home</a></li>
+                <li><a href="#sobre" class="scroll-link lang lang-pt" style="display:none">Sobre</a><a href="#sobre" class="scroll-link lang lang-en">About</a></li>
+                <li><a href="#habilidades" class="scroll-link lang lang-pt" style="display:none">Habilidades</a><a href="#habilidades" class="scroll-link lang lang-en">Skills</a></li>
+                <li><a href="#projetos" class="scroll-link lang lang-pt" style="display:none">Projetos</a><a href="#projetos" class="scroll-link lang lang-en">Projects</a></li>
+                <li><a href="#experiencia" class="scroll-link lang lang-pt" style="display:none">Experiência</a><a href="#experiencia" class="scroll-link lang lang-en">Experience</a></li>
+                <li><a href="#formacao" class="scroll-link lang lang-pt" style="display:none">Formação</a><a href="#formacao" class="scroll-link lang lang-en">Education</a></li>
+                <li><a href="#contato" class="scroll-link lang lang-pt" style="display:none">Contato</a><a href="#contato" class="scroll-link lang lang-en">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="sobre" class="section-fade">
-        <h2>Sobre Mim</h2>
-        <div class="objetivo">
-            <p>Sou um Software Engineer e Analista de BI dedicado a aplicar minhas habilidades em prol das empresas com as quais trabalho. Busco constantemente desenvolver minha criatividade, lógica e flexibilidade, enquanto construo minha carreira profissional em organizações inovadoras e com forte posicionamento no mercado.</p>
+        <h2 class="lang lang-pt" style="display:none">Sobre Mim</h2>
+        <h2 class="lang lang-en">Professional Summary</h2>
+        <div class="about-highlight">
+            <div class="lang lang-pt" style="display:none">
+                <div class="about-quote">Transformando dados em impacto real!</div>
+                <p>Sou movido pelo desafio de unir tecnologia, criatividade e análise para gerar soluções que impulsionam pessoas e negócios. Acredito que o futuro pertence a quem sabe extrair valor dos dados e conectar ideias inovadoras à execução prática.</p>
+                <ul>
+                    <li>Experiência em ambientes dinâmicos, atuando do desenvolvimento ao BI estratégico.</li>
+                    <li>Paixão por automação, visualização de dados e projetos que unem tecnologia e propósito.</li>
+                    <li>Visão de carreira voltada para inovação, aprendizado contínuo e colaboração multidisciplinar.</li>
+                    <li>Comprometido em entregar resultados que realmente fazem a diferença.</li>
+                </ul>
+            </div>
+            <div class="lang lang-en">
+                <div class="about-quote">Turning data into real-world impact!</div>
+                <p>I am driven by the challenge of blending technology, creativity, and analytics to deliver solutions that empower people and businesses. I believe the future belongs to those who extract value from data and connect innovative ideas to practical execution.</p>
+                <ul>
+                    <li>Experience in dynamic environments, from development to strategic BI.</li>
+                    <li>Passionate about automation, data visualization, and projects that unite technology and purpose.</li>
+                    <li>Career vision focused on innovation, continuous learning, and multidisciplinary collaboration.</li>
+                    <li>Committed to delivering results that truly make a difference.</li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <section id="habilidades" class="section-fade">
-        <h2>Habilidades</h2>
+        <h2 class="lang lang-pt" style="display:none">Habilidades</h2>
+        <h2 class="lang lang-en">Technical Skills</h2>
         <div class="habilidades-container">
             <div class="habilidade-card">
                 <h3><i class="fab fa-python"></i> Python</h3>
-                <div class="nivel">
-                    <div class="nivel-bar nivel-intermediario"></div>
-                </div>
-                <p>Intermediário</p>
+                <ul>
+                    <li class="lang lang-pt" style="display:none">Automação, análise de dados, ETL, desenvolvimento de jogos (Pygame).</li>
+                    <li class="lang lang-en">Automation, data analysis, ETL, game development (Pygame).</li>
+                </ul>
             </div>
             <div class="habilidade-card">
-                <h3><i class="fas fa-chart-bar"></i> Power BI</h3>
-                <div class="nivel">
-                    <div class="nivel-bar nivel-intermediario"></div>
-                </div>
-                <p>Intermediário</p>
+                <h3><i class="fas fa-database"></i> SQL / Databricks / SQLServer / MongoDB</h3>
+                <ul>
+                    <li class="lang lang-pt" style="display:none">Manipulação de grandes volumes de dados, queries avançadas, integração com Power BI e Databricks.</li>
+                    <li class="lang lang-en">Big data manipulation, advanced queries, integration with Power BI and Databricks.</li>
+                </ul>
             </div>
             <div class="habilidade-card">
-                <h3><i class="fas fa-database"></i> SQL</h3>
-                <div class="nivel">
-                    <div class="nivel-bar nivel-basico"></div>
-                </div>
-                <p>Básico</p>
+                <h3><i class="fab fa-js"></i> JavaScript, HTML5, CSS3</h3>
+                <ul>
+                    <li class="lang lang-pt" style="display:none">Desenvolvimento web responsivo, frontend de sistemas e portfólio.</li>
+                    <li class="lang lang-en">Responsive web development, system frontends, and portfolio.</li>
+                </ul>
             </div>
             <div class="habilidade-card">
-                <h3><i class="fas fa-database"></i> MySQL</h3>
-                <div class="nivel">
-                    <div class="nivel-bar nivel-basico"></div>
-                </div>
-                <p>Básico</p>
+                <h3><i class="fas fa-chart-bar"></i> Power BI, Power Automate, Power Apps</h3>
+                <ul>
+                    <li class="lang lang-pt" style="display:none">Dashboards interativos, automação de relatórios, integração de processos empresariais.</li>
+                    <li class="lang lang-en">Interactive dashboards, report automation, business process integration.</li>
+                </ul>
             </div>
             <div class="habilidade-card">
-                <h3><i class="fab fa-js"></i> JavaScript</h3>
-                <div class="nivel">
-                    <div class="nivel-bar nivel-basico"></div>
-                </div>
-                <p>Básico</p>
+                <h3><i class="fas fa-file-excel"></i> Excel & SharePoint</h3>
+                <ul>
+                    <li class="lang lang-pt" style="display:none">Automação de relatórios, macros, integração com BI e gestão de dados empresariais.</li>
+                    <li class="lang lang-en">Report automation, macros, BI integration, business data management.</li>
+                </ul>
             </div>
             <div class="habilidade-card">
-                <h3><i class="fas fa-database"></i> MongoDB</h3>
-                <div class="nivel">
-                    <div class="nivel-bar nivel-basico"></div>
-                </div>
-                <p>Básico</p>
+                <h3><i class="fas fa-cogs"></i> Node.js, APIs, Git, Vercel, Render</h3>
+                <ul>
+                    <li class="lang lang-pt" style="display:none">Desenvolvimento backend, deploy, versionamento e integração de sistemas.</li>
+                    <li class="lang lang-en">Backend development, deployment, version control, and system integration.</li>
+                </ul>
             </div>
             <div class="habilidade-card">
-                <h3><i class="fab fa-html5"></i> HTML, CSS</h3>
-                <div class="nivel">
-                    <div class="nivel-bar nivel-basico"></div>
-                </div>
-                <p>Básico</p>
+                <h3><i class="fas fa-brain"></i> Lógica de Programação</h3>
+                <ul>
+                    <li class="lang lang-pt" style="display:none">Raciocínio lógico aplicado a soluções de software, automação e análise de dados.</li>
+                    <li class="lang lang-en">Logical reasoning applied to software solutions, automation, and data analysis.</li>
+                </ul>
             </div>
             <div class="habilidade-card">
-                <h3><i class="fas fa-file-excel"></i> Excel</h3>
-                <div class="nivel">
-                    <div class="nivel-bar nivel-intermediario"></div>
-                </div>
-                <p>Intermediário</p>
+                <h3><i class="fas fa-random"></i> ETL, KPIs, Dashboards, Analytics</h3>
+                <ul>
+                    <li class="lang lang-pt" style="display:none">Processos de ETL, definição e acompanhamento de KPIs, construção de dashboards e análise de dados.</li>
+                    <li class="lang lang-en">ETL processes, KPI definition and monitoring, dashboard building, and data analytics.</li>
+                </ul>
             </div>
             <div class="habilidade-card">
-                <h3><i class="fas fa-database"></i> Databricks</h3>
-                <div class="nivel">
-                    <div class="nivel-bar nivel-basico"></div>
-                </div>
-                <p>Básico</p>
+                <h3><i class="fas fa-gamepad"></i> Pygame</h3>
+                <ul>
+                    <li class="lang lang-pt" style="display:none">Desenvolvimento de jogos e interfaces gráficas em Python.</li>
+                    <li class="lang lang-en">Game and graphical interface development in Python.</li>
+                </ul>
+            </div>
+            <div class="habilidade-card">
+                <h3><i class="fas fa-globe"></i> Web Development</h3>
+                <ul>
+                    <li class="lang lang-pt" style="display:none">Desenvolvimento de aplicações web modernas e responsivas.</li>
+                    <li class="lang lang-en">Modern and responsive web application development.</li>
+                </ul>
             </div>
         </div>
     </section>
 
     <section id="projetos" class="section-fade">
-        <h2>Projetos</h2>
+        <h2 class="lang lang-pt" style="display:none">Projetos</h2>
+        <h2 class="lang lang-en">Technical Projects</h2>
         <div class="carousel-container">
             <div class="carousel-track">
                 <div class="projeto-card">
@@ -121,9 +153,17 @@
                         <img src="Financeiro.png" alt="Dashboard Financeiro">
                     </div>
                     <div class="projeto-info">
-                        <h3>Dashboard Financeiro</h3>
-                        <p>Dashboard interativo em Power BI para análise financeira, desenvolvido como parte de estudos e cursos.</p>
-                        <a href="https://app.powerbi.com/view?r=eyJrIjoiZWQzNmQwYjEtYjViOC00MjUxLTlhNmYtOTE1ZmMyMDM1MTcxIiwidCI6ImU5YzgwMThiLTQwY2YtNDE5MC1hOTA3LTI1ZjNjZjMyNzdiMiJ9" class="projeto-link" target="_blank">Visualizar <i class="fas fa-arrow-right"></i></a>
+                        <h3 class="lang lang-pt" style="display:none">Dashboard Financeiro</h3>
+                        <h3 class="lang lang-en">Financial Dashboard</h3>
+                        <ul>
+                            <li class="lang lang-pt" style="display:none">Dashboard interativo em Power BI para análise financeira.</li>
+                            <li class="lang lang-pt" style="display:none">Filtros dinâmicos, KPIs e gráficos interativos.</li>
+                            <li class="lang lang-pt" style="display:none">Utilizado para tomada de decisão em setores financeiros.</li>
+                            <li class="lang lang-en">Interactive Power BI dashboard for financial analysis.</li>
+                            <li class="lang lang-en">Dynamic filters, KPIs, and interactive charts.</li>
+                            <li class="lang lang-en">Used for decision-making in financial sectors.</li>
+                        </ul>
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiZWQzNmQwYjEtYjViOC00MjUxLTlhNmYtOTE1ZmMyMDM1MTcxIiwidCI6ImU5YzgwMThiLTQwY2YtNDE5MC1hOTA3LTI1ZjNjZjMyNzdiMiJ9" class="projeto-link" target="_blank">Power BI</a>
                     </div>
                 </div>
                 <div class="projeto-card">
@@ -131,9 +171,15 @@
                         <img src="Producao.png" alt="Dashboard de Produção">
                     </div>
                     <div class="projeto-info">
-                        <h3>Dashboard de Produção</h3>
-                        <p>Dashboard em Power BI focado em métricas de produção para tomada de decisões baseadas em dados.</p>
-                        <a href="https://app.powerbi.com/view?r=eyJrIjoiMzdlYmM0NDctMzdjNi00YmZkLWE0NTQtMjc3MDg3OGYzNmMzIiwidCI6ImU5YzgwMThiLTQwY2YtNDE5MC1hOTA3LTI1ZjNjZjMyNzdiMiJ9" class="projeto-link" target="_blank">Visualizar <i class="fas fa-arrow-right"></i></a>
+                        <h3 class="lang lang-pt" style="display:none">Dashboard de Produção</h3>
+                        <h3 class="lang lang-en">Production Dashboard</h3>
+                        <ul>
+                            <li class="lang lang-pt" style="display:none">Dashboard em Power BI para análise de produção e métricas industriais.</li>
+                            <li class="lang lang-pt" style="display:none">Acompanhamento de KPIs de chão de fábrica.</li>
+                            <li class="lang lang-en">Power BI dashboard for production analysis and industrial metrics.</li>
+                            <li class="lang lang-en">Shop floor KPIs monitoring.</li>
+                        </ul>
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiMzdlYmM0NDctMzdjNi00YmZkLWE0NTQtMjc3MDg3OGYzNmMzIiwidCI6ImU5YzgwMThiLTQwY2YtNDE5MC1hOTA3LTI1ZjNjZjMyNzdiMiJ9" class="projeto-link" target="_blank">Power BI</a>
                     </div>
                 </div>
                 <div class="projeto-card">
@@ -141,9 +187,15 @@
                         <img src="RH.png" alt="Dashboard de RH">
                     </div>
                     <div class="projeto-info">
-                        <h3>Dashboard de RH</h3>
-                        <p>Dashboard interativo em Power BI para análise de Recursos Humanos e gestão de talentos.</p>
-                        <a href="https://app.powerbi.com/view?r=eyJrIjoiMWIyYjdkMTctZmQ5NC00ZTJhLWJmN2EtMWU0OTFmMTJjMjgxIiwidCI6ImU5YzgwMThiLTQwY2YtNDE5MC1hOTA3LTI1ZjNjZjMyNzdiMiJ9" class="projeto-link" target="_blank">Visualizar <i class="fas fa-arrow-right"></i></a>
+                        <h3 class="lang lang-pt" style="display:none">Dashboard de RH</h3>
+                        <h3 class="lang lang-en">HR Dashboard</h3>
+                        <ul>
+                            <li class="lang lang-pt" style="display:none">Dashboard em Power BI para análise de RH e gestão de talentos.</li>
+                            <li class="lang lang-pt" style="display:none">Acompanhamento de indicadores de pessoas.</li>
+                            <li class="lang lang-en">Power BI dashboard for HR analysis and talent management.</li>
+                            <li class="lang lang-en">People indicators monitoring.</li>
+                        </ul>
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiMWIyYjdkMTctZmQ5NC00ZTJhLWJmN2EtMWU0OTFmMTJjMjgxIiwidCI6ImU5YzgwMThiLTQwY2YtNDE5MC1hOTA3LTI1ZjNjZjMyNzdiMiJ9" class="projeto-link" target="_blank">Power BI</a>
                     </div>
                 </div>
                 <div class="projeto-card">
@@ -151,75 +203,117 @@
                         <img src="jogo.jpg" alt="Jogo em Python">
                     </div>
                     <div class="projeto-info">
-                        <h3>Jogo em Python</h3>
-                        <p>Jogo de palavras cruzadas com temática de batalha de turnos RPG desenvolvido em Python utilizando a biblioteca Pygame.</p>
-                        <a href="#" class="projeto-link">Detalhes <i class="fas fa-arrow-right"></i></a>
+                        <h3 class="lang lang-pt" style="display:none">Jogo em Python</h3>
+                        <h3 class="lang lang-en">RPG Game with Python</h3>
+                        <ul>
+                            <li class="lang lang-pt" style="display:none">Jogo de batalha por turnos em Python.</li>
+                            <li class="lang lang-pt" style="display:none">Lógica avançada e interface gráfica com Pygame.</li>
+                            <li class="lang lang-en">Turn-based battle RPG game in Python.</li>
+                            <li class="lang lang-en">Advanced logic and graphical interface with Pygame.</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="projeto-card">
                     <div class="projeto-img">
-                        <img src="Artigo.png" alt="Artigo Científico">
+                        <img src="Artigo.png" alt="Artigo Científico Volvo">
                     </div>
                     <div class="projeto-info">
-                        <h3>Artigo Científico Volvo</h3>
-                        <p>Proposta de mapeamento de aspectos e impactos ambientais em uma indústria automobilística.</p>
-                        <a href="http://app.fiepr.org.br/revistacientifica/index.php/inovamais/article/view/831/735" class="projeto-link" target="_blank">Ler artigo <i class="fas fa-arrow-right"></i></a>
+                        <h3 class="lang lang-pt" style="display:none">Artigo Científico Volvo</h3>
+                        <h3 class="lang lang-en">Scientific Article - Volvo</h3>
+                        <ul>
+                            <li class="lang lang-pt" style="display:none">Mapeamento de aspectos e impactos ambientais em indústria automobilística.</li>
+                            <li class="lang lang-en">Environmental aspects and impacts mapping in an automotive industry.</li>
+                        </ul>
+                        <a href="http://app.fiepr.org.br/revistacientifica/index.php/inovamais/article/view/831/735" class="projeto-link" target="_blank">Artigo</a>
                     </div>
                 </div>
                 <div class="projeto-card">
                     <div class="projeto-img">
-                        <img src="selletra.png" alt="Artigo Científico">
+                        <img src="selletra.png" alt="Artigo Científico Selletra">
                     </div>
                     <div class="projeto-info">
-                        <h3>Artigo Científico Selletra</h3>
-                        <p>Certificação de qualidade em engenharia de requisitos: estudo de caso em uma industria de automação</p>
-                        <a href="http://app.fiepr.org.br/revistacientifica/index.php/inovamais/article/view/889" class="projeto-link" target="_blank">Ler artigo <i class="fas fa-arrow-right"></i></a>
+                        <h3 class="lang lang-pt" style="display:none">Artigo Científico Selletra</h3>
+                        <h3 class="lang lang-en">Scientific Article - Selletra</h3>
+                        <ul>
+                            <li class="lang lang-pt" style="display:none">Certificação de qualidade em engenharia de requisitos: estudo de caso em automação.</li>
+                            <li class="lang lang-en">Quality certification in requirements engineering: case study in automation.</li>
+                        </ul>
+                        <a href="http://app.fiepr.org.br/revistacientifica/index.php/inovamais/article/view/889" class="projeto-link" target="_blank">Artigo</a>
                     </div>
                 </div>
-        </div>
-        <div class="carousel-nav">
-            <button class="carousel-button prev"><i class="fas fa-chevron-left"></i></button>
-            <button class="carousel-button next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="carousel-nav">
+                <button class="carousel-button prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-button next"><i class="fas fa-chevron-right"></i></button>
+            </div>
         </div>
     </section>
 
     <section id="experiencia" class="section-fade">
-        <h2>Experiência Profissional</h2>
+        <h2 class="lang lang-pt" style="display:none">Experiência Profissional</h2>
+        <h2 class="lang lang-en">Professional Experience</h2>
         <div class="timeline">
             <div class="timeline-item right">
                 <div class="timeline-content">
-                    <h3>Analista de BI</h3>
-                    <h4>CNH Industrial | Mar 2024 - Atualmente</h4>
-                    <p>Atuação como Analista de Business Intelligence, desenvolvendo dashboards, tratando dados, manipulando planilhas, desenvolvendo listas e apps com ferramentas Power, manipulando bancos de dados como Databricks através de SQL e visualização de dados com Python.</p>
+                    <h3 class="lang lang-pt" style="display:none">Analista de BI</h3>
+                    <h3 class="lang lang-en">Business Intelligence Analyst</h3>
+                    <h4 class="lang lang-pt" style="display:none">CNH Industrial | Mar 2024 - Atualmente</h4>
+                    <h4 class="lang lang-en">CNH Industrial | March 2024 - Present</h4>
+                    <ul class="lang lang-pt" style="display:none">
+                        <li>Desenvolvimento de dashboards analíticos em Power BI com KPIs estratégicos, utilizados por gestores e equipes para tomada de decisão.</li>
+                        <li>Otimização do tempo de análise em 30% por meio de automação e visualização de dados.</li>
+                        <li>Manipulação e processamento de grandes volumes de dados em Databricks com SQL e ETL.</li>
+                        <li>Automação de processos críticos com Power Automate e integração com Power Apps e SharePoint.</li>
+                        <li>Geração de insights estratégicos com Python para análise de dados operacionais e identificação de tendências.</li>
+                        <li>Automação de relatórios gerenciais com macros em Excel, economizando 30 minutos por dia e aumentando a produtividade da equipe.</li>
+                    </ul>
+                    <ul class="lang lang-en">
+                        <li>Development of analytical dashboards in Power BI with strategic KPIs, used by managers and teams for decision-making.</li>
+                        <li>Optimized analysis time by 30% through automation and data visualization.</li>
+                        <li>Big data manipulation and processing in Databricks with SQL and ETL.</li>
+                        <li>Automation of critical processes with Power Automate and integration with Power Apps and SharePoint.</li>
+                        <li>Generation of strategic insights with Python for operational data analysis and trend identification.</li>
+                        <li>Automation of management reports with Excel macros, saving 30 minutes per day and increasing team productivity.</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="formacao" class="section-fade">
-        <h2>Formação</h2>
+        <h2 class="lang lang-pt" style="display:none">Formação</h2>
+        <h2 class="lang lang-en">Education</h2>
         <div class="formacao-container">
             <div class="formacao-card">
-                <h3>Engenharia de Software</h3>
-                <h4>UniSenai - SJP | Jan 2023 - Dez 2026</h4>
-                <p>Graduação em andamento com foco em desenvolvimento de software, banco de dados, design e arquitetura de sistemas.</p>
+                <h3 class="lang lang-pt" style="display:none">Engenharia de Software</h3>
+                <h3 class="lang lang-en">Software Engineering</h3>
+                <h4 class="lang lang-pt" style="display:none">UniSenai - SJP | Jan 2023 - Dez 2026</h4>
+                <h4 class="lang lang-en">UniSenai - SJP | January 2023 - December 2026</h4>
+                <p class="lang lang-pt" style="display:none">Graduação em andamento com foco em desenvolvimento de software, banco de dados, design e arquitetura de sistemas.</p>
+                <p class="lang lang-en">Bachelor's degree in progress focused on software development, databases, design, and systems architecture.</p>
             </div>
             <div class="formacao-card">
-                <h3>Data Driven - Power BI</h3>
-                <h4>Curso de Especialização | 2025</h4>
-                <p>Criação de dashboards com Power BI para análise de dados e visualização de informações empresariais.</p>
+                <h3 class="lang lang-pt" style="display:none">Data Driven - Power BI</h3>
+                <h3 class="lang lang-en">Interactive Power BI Dashboards</h3>
+                <h4 class="lang lang-pt" style="display:none">Curso de Especialização | 2025</h4>
+                <h4 class="lang lang-en">Specialization Course | 2025</h4>
+                <p class="lang lang-pt" style="display:none">Criação de dashboards com Power BI para análise de dados e visualização de informações empresariais.</p>
+                <p class="lang lang-en">Creation of dashboards with Power BI for data analysis and business information visualization.</p>
             </div>
             <div class="formacao-card">
-                <h3>Cna Idiomas - Ingles</h3>
-                <h4>Curso de Idiomas| 2025</h4>
-                <p>Uma das maiores e mais tradicionais escolas de idiomas do Brasil! Na qual estou atualmente no nivel Masters 2</p>
+                <h3 class="lang lang-pt" style="display:none">Cna Idiomas - Ingles</h3>
+                <h3 class="lang lang-en">Languages</h3>
+                <h4 class="lang lang-pt" style="display:none">Curso de Idiomas| 2025</h4>
+                <h4 class="lang lang-en">Language Course | 2025</h4>
+                <p class="lang lang-pt" style="display:none">Uma das maiores e mais tradicionais escolas de idiomas do Brasil! Na qual estou atualmente no nivel Masters 2</p>
+                <p class="lang lang-en">One of the largest and most traditional language schools in Brazil! Currently at Masters 2 level.</p>
             </div>
         </div>
-    </div>
     </section>
 
     <section id="contato" class="section-fade">
-        <h2>Contato</h2>
+        <h2 class="lang lang-pt" style="display:none">Contato</h2>
+        <h2 class="lang lang-en">Contact</h2>
         <div class="contato-container">
             <div class="contato-info">
                 <div class="contato-item">
@@ -232,7 +326,7 @@
                 </div>
                 <div class="contato-item">
                     <i class="fas fa-map-marker-alt"></i>
-                    <p>Curitiba, PR - Brasil</p>
+                    <p><span class="lang lang-pt" style="display:none">Curitiba, PR - Brasil</span><span class="lang lang-en">Curitiba, PR - Brazil</span></p>
                 </div>
                 <div class="contato-item">
                     <i class="fab fa-linkedin"></i>
@@ -240,7 +334,7 @@
                 </div>
                 <div class="contato-item">
                     <i class="fas fa-language"></i>
-                    <p>Idiomas: Português (Nativo), Inglês (Fluente), Espanhol (Básico)</p>
+                    <p><span class="lang lang-pt" style="display:none">Idiomas: Português (Nativo), Inglês (Fluente), Espanhol (Básico)</span><span class="lang lang-en">Languages: Portuguese (Native), English (Advanced), Spanish (Basic)</span></p>
                 </div>
             </div>
         </div>
@@ -399,7 +493,28 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Verificar seções visíveis ao rolar
     window.addEventListener('scroll', checkSections);
+
+    // Troca de idioma
+    const langToggle = document.getElementById('lang-toggle');
+    let currentLang = 'en';
+    function setLang(lang) {
+        currentLang = lang;
+        document.querySelectorAll('.lang').forEach(el => {
+            if (el.classList.contains('lang-' + lang)) {
+                el.style.display = '';
+            } else {
+                el.style.display = 'none';
+            }
+        });
+        langToggle.textContent = lang === 'en' ? 'PT' : 'EN';
+    }
+    langToggle.addEventListener('click', () => {
+        setLang(currentLang === 'en' ? 'pt' : 'en');
+    });
+    // Inicializa em inglês
+    setLang('en');
 });
 </script>
 </body>
 </html>
+
